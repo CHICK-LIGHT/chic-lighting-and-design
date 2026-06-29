@@ -12,7 +12,7 @@
      <nav class="navbar navbar-expand-lg bg-light sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="images/chic lighting.png" alt="Our Logo" width="130"></a>
-    <span id="visitorCount" class="badge bg-primary ms-2">Visitor: 0</span>
+    <span id="visitorCount" class="badge bg-success ms-2">Visitor: 0</span>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -398,135 +398,7 @@
 
 
 
-    <div class="container my-5">
-  <!-- Brand Filter Buttons -->
-  <div class="text-center mb-4">
-    <button class="btn btn-outline-success filter-btn active" data-filter="all">All Brands</button>
-    <button class="btn btn-outline-success filter-btn" data-filter="philips">Philips</button>
-    <button class="btn btn-outline-success filter-btn" data-filter="osram">Osram</button>
-    <button class="btn btn-outline-success filter-btn" data-filter="lutron">Lutron</button>
-  </div>
-
-  <!-- Gallery Grid (3 columns on desktops, 2 on tablets, 1 on mobile) -->
-  <div class="row g-4" id="gallery">
-    
-    <!-- Item 1: Philips -->
-    <div class="col-12 col-md-6 col-lg-4 gallery-item" data-brand="philips">
-      <div class="card h-100 shadow-sm">
-        <img src="images/Philips Hue E27 _ White & Color Ambiance _ 1100lm _ 9W.jpeg" class="card-img-top img-fluid" alt="Philips Smart Bulb">
-        <div class="card-body">
-          <h5 class="card-title text-center">Philips Hue Bulb</h5>
-        </div>
-      </div>
-    </div>
-
-    <!-- Item 2: Osram -->
-    <div class="col-12 col-md-6 col-lg-4 gallery-item" data-brand="osram">
-      <div class="card h-100 shadow-sm">
-        <img src="images/Osram LED-Strahler Endura Flood (30 W, Anthrazit, Warmweiß, IP44).jpeg" class="card-img-top img-fluid" alt="Osram LED Floodlight">
-        <div class="card-body">
-          <h5 class="card-title text text-center">Osram Floodlight</h5>
-        </div>
-      </div>
-    </div>
-
-    <!-- Item 3: Lutron -->
-    <div class="col-12 col-md-6 col-lg-4 gallery-item" data-brand="lutron">
-      <div class="card h-100 shadow-sm">
-        <img src="images/Lutron Caseta Dimmer Switch - No Neutral, Works with___.jpeg" class="card-img-top img-fluid" alt="Lutron Smart Dimmer">
-        <div class="card-body">
-          <h5 class="card-title text-center">Lutron Caseta Dimmer</h5>
-        </div>
-      </div>
-    </div>
-
-    <!-- Item 4: Philips -->
-    <div class="col-12 col-md-6 col-lg-4 gallery-item" data-brand="philips">
-      <div class="card h-100 shadow-sm">
-        <img src="images/Philips Skyy 5W Touch LED Table Lamp — Rechargeable & Elegant.jpeg" class="card-img-top img-fluid" alt="Philips Desk Lamp">
-        <div class="card-body">
-          <h5 class="card-title text-center">Philips Desk Lamp</h5>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-    
-
-    <!-- FEEDBACK -->
-
-    <h2 id="" class="fs-1 p-5 mt-5 mb- -2 text-center fw-bold">FEEDBACK</h2>
-
-      <div class="input-group-sm mb-3">
-            <form id="feedbackForm">
-                    <div class="row g-3">
-                        <!-- Name Input -->
-                        <div class="col-md-4">
-                            <label for="fullName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="fullName" placeholder="Your Name" required>
-                        </div>
-
-                        <!-- Email Input -->
-                        <div class="col-md-4">
-                            <label for="emailAddress" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required>
-                        </div>
-
-                        <!-- Rating Input -->
-                        <div class="col-md-3">
-                            <label for="rating" class="form-label">Rating</label>
-                            <select class="form-select" id="rating" required>
-                                <option value="" >Choose a rating...</option>
-                                <option value="5">5 - Excellent</option>
-                                <option value="4">4 - Very Good</option>
-                                <option value="3">3 - Good</option>
-                                <option value="2">2 - Fair</option>
-                                <option value="1">1 - Poor</option>
-                            </select>
-                        </div>
-
-                        <!-- Comment Input -->
-                        <div class="col-12 mt-4">
-                            <label for="feedbackComment" class="form-label">Comment</label>
-                            <textarea class="form-control" id="feedbackComment" rows="4" placeholder="Type your feedback here..." required></textarea>
-                        </div>
-
-                        <!-- Submit Button -->
-                        <div class="col-12 text-center mt-3">
-                            <button type="submit" class="btn btn-success px-4">Submit Feedback</button>
-                        </div>
-                    </div>
-                </form> 
-              </div>
-
-
-
-
-
-
-    <!-- FEEDBACK -->
-     <!-- <h2 id="contact" class="fs-1 p-5 mt-5 mb- -2 text-center">FEEDBACK</h2>
-
-<div class="input-group-sm mb-3">
-  <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Name" aria-describedby="inputGroup-sizing-default">
-</div>
-
-<div class="input-group input-group-lg h-100">
-  <input type="text" class="form-control fs-6" placeholder="Comment" aria-label="Comment" aria-describedby="visible-addon">
-</div>
-
-
-<div class="row justify-content-center">
-  <div class="col-md-8">
-    <input class="form-control w-100" type="text" placeholder="Name">
-     <input class="form-control w-100" type="text" placeholder="Name">
-  </div>
-</div> -->
-
-
-<!--about us-->
+    <!--about us-->
 <section class="about-section py-5 bg-light" id="about">
    <h2 id="" class="fs-1 p-5 mt-5 mb- -2 text-center fw-bold">ABOUT US</h2>
   <div class="container">
@@ -703,6 +575,139 @@ At Chic Lighting & Design, we are dedicated to customer service. When you call o
     </div>
 
        </div>
+
+
+
+
+
+
+    <div class="container my-5">
+  <!-- Brand Filter Buttons -->
+  <div class="text-center mb-4">
+    <button class="btn btn-outline-success filter-btn active" data-filter="all">All Brands</button>
+    <button class="btn btn-outline-success filter-btn" data-filter="philips">Philips</button>
+    <button class="btn btn-outline-success filter-btn" data-filter="osram">Osram</button>
+    <button class="btn btn-outline-success filter-btn" data-filter="lutron">Lutron</button>
+  </div>
+
+  <!-- Gallery Grid (3 columns on desktops, 2 on tablets, 1 on mobile) -->
+  <div class="row g-4" id="gallery">
+    
+    <!-- Item 1: Philips -->
+    <div class="col-12 col-md-6 col-lg-4 gallery-item" data-brand="philips">
+      <div class="card h-100 shadow-sm">
+        <img src="images/Philips Hue E27 _ White & Color Ambiance _ 1100lm _ 9W.jpeg" class="card-img-top img-fluid" alt="Philips Smart Bulb">
+        <div class="card-body">
+          <h5 class="card-title text-center">Philips Hue Bulb</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Item 2: Osram -->
+    <div class="col-12 col-md-6 col-lg-4 gallery-item" data-brand="osram">
+      <div class="card h-100 shadow-sm">
+        <img src="images/Osram LED-Strahler Endura Flood (30 W, Anthrazit, Warmweiß, IP44).jpeg" class="card-img-top img-fluid" alt="Osram LED Floodlight">
+        <div class="card-body">
+          <h5 class="card-title text text-center">Osram Floodlight</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Item 3: Lutron -->
+    <div class="col-12 col-md-6 col-lg-4 gallery-item" data-brand="lutron">
+      <div class="card h-100 shadow-sm">
+        <img src="images/Lutron Caseta Dimmer Switch - No Neutral, Works with___.jpeg" class="card-img-top img-fluid" alt="Lutron Smart Dimmer">
+        <div class="card-body">
+          <h5 class="card-title text-center">Lutron Caseta Dimmer</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Item 4: Philips -->
+    <div class="col-12 col-md-6 col-lg-4 gallery-item" data-brand="philips">
+      <div class="card h-100 shadow-sm">
+        <img src="images/Philips Skyy 5W Touch LED Table Lamp — Rechargeable & Elegant.jpeg" class="card-img-top img-fluid" alt="Philips Desk Lamp">
+        <div class="card-body">
+          <h5 class="card-title text-center">Philips Desk Lamp</h5>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    
+
+    <!-- FEEDBACK -->
+
+    <h2 id="" class="fs-1 p-5 mt-5 mb- -2 text-center fw-bold">FEEDBACK</h2>
+
+      <div class="input-group-sm mb-3">
+            <form id="feedbackForm">
+                    <div class="row g-3">
+                        <!-- Name Input -->
+                        <div class="col-md-4">
+                            <label for="fullName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="fullName" placeholder="Your Name" required>
+                        </div>
+
+                        <!-- Email Input -->
+                        <div class="col-md-4">
+                            <label for="emailAddress" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required>
+                        </div>
+
+                        <!-- Rating Input -->
+                        <div class="col-md-3">
+                            <label for="rating" class="form-label">Rating</label>
+                            <select class="form-select" id="rating" required>
+                                <option value="" >Choose a rating...</option>
+                                <option value="5">5 - Excellent</option>
+                                <option value="4">4 - Very Good</option>
+                                <option value="3">3 - Good</option>
+                                <option value="2">2 - Fair</option>
+                                <option value="1">1 - Poor</option>
+                            </select>
+                        </div>
+
+                        <!-- Comment Input -->
+                        <div class="col-12 mt-4">
+                            <label for="feedbackComment" class="form-label">Comment</label>
+                            <textarea class="form-control" id="feedbackComment" rows="4" placeholder="Type your feedback here..." required></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="col-12 text-center mt-3">
+                            <button type="submit" class="btn btn-success px-4">Submit Feedback</button>
+                        </div>
+                    </div>
+                </form> 
+              </div>
+
+
+
+
+
+
+    <!-- FEEDBACK -->
+     <!-- <h2 id="contact" class="fs-1 p-5 mt-5 mb- -2 text-center">FEEDBACK</h2>
+
+<div class="input-group-sm mb-3">
+  <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Name" aria-describedby="inputGroup-sizing-default">
+</div>
+
+<div class="input-group input-group-lg h-100">
+  <input type="text" class="form-control fs-6" placeholder="Comment" aria-label="Comment" aria-describedby="visible-addon">
+</div>
+
+
+<div class="row justify-content-center">
+  <div class="col-md-8">
+    <input class="form-control w-100" type="text" placeholder="Name">
+     <input class="form-control w-100" type="text" placeholder="Name">
+  </div>
+</div> -->
+
 
 
     <div class="container py-5" id="contact">
